@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Beans</title>
+    <link rel="stylesheet" href="/style.css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="top">
+        <h1>Natural Beans</h1>
+        <p>烘出自然，品味純粹。</p>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="#intro">關於本站</a></li>
+            <li><a href="#beans">自家烘培的獨家咖啡豆</a></li>
+            <li><a href="#profile">店家介紹</a></li>
+        </ul>
+    </nav>
+<!-- back to top -->
+ <a href="#top" id="back-to-top">
+    <img src="/images/back-to-top.png" alt="back-to-top">
+ </a>
+
+<!-- main -->
+    <main id="contents">
+        <section id="intro">
+            <h2 class="h">關於本站</h2>
+            <p>歡迎光臨本站。 這裡是介紹Natural Beans烘焙的咖啡豆，所有產品皆在販售中，歡迎來電洽詢。<br><strong>※未經許可，請勿擅自複製轉載。</strong></p>
+        </section>
+        <section id="beans">
+            <h2 class="h">自家烘培的獨家咖啡豆</h2>
+            <section>
+                <h3 class="h-sub">店家精選 哥倫比亞阿拉比卡</h3>
+                <img class="imgR" src="/images/bean_brown.jpg" alt="阿拉比卡咖啡豆" width="480" height="320">
+                <p>這款來自哥倫比亞的 100% 阿拉比卡咖啡豆，在高海拔地區孕育而生，擁有純淨細膩的風味。經過 Natural Beans 的精心烘焙，呈現出濃郁的可可與堅果香氣，口感醇厚，尾韻帶有令人愉悅的焦糖甜感。適合手沖、濾壓等各式沖煮方式，讓您在家也能輕鬆享受一杯高品質的精品咖啡。</p>
+                <p class="more clear"><a href="beans/arabica02.html">→更多介紹</a></p>
+            </section>
+            <section>
+                <h3 class="h-sub">Boss特選 巴西咖啡</h3>
+                <img class="imgL" src="/images/bean_green.jpg" alt="特選巴西咖啡" width="480" height="320">
+                <p>這款來自熱情巴西的咖啡豆，以其均衡柔順的風味著稱。Natural Beans 採用專業烘焙，將其堅果、巧克力般的經典風味完美釋放，並帶有淡淡的焦糖甜感。口感圓潤飽滿，酸度低，非常適合日常飲用，無論是早晨的第一杯，或是午後的休憩時光，都是您的理想選擇。</p>
+                <p class="more clear"><a href="beans/brazil.html">→更多介紹</a></p>
+            </section>
+            <section>
+                <h3 class="h-sub">日常精選 阿拉比卡</h3>
+                <img class="imgR" src="/images/bean_orange.jpg" alt="日常精選阿拉比卡" width="480" height="320">
+                <p>為您獻上這款高性價比的 100% 阿拉比卡咖啡豆。相較於我們的頂級系列，它擁有更親民的價格，卻依然保有阿拉比卡咖啡的柔順口感與迷人香氣。您可以品嚐到溫和的堅果風味，以及一絲淡淡的甜感，非常適合每日飲用，滿足您和家人的咖啡需求。以實惠的價格，享受 Natural Beans 的用心烘焙。</p>
+                <p class="more clear"><a href="beans/arabica01.html">→更多介紹</a></p>
+            </section>
+        </section>
+        <section id="profile" class="clearfix">
+            <h2 class="h">店家介紹</h2>
+            <img class="img-round imgL" src="/images/logo.jpg" alt="商標" width="250" height="250">
+            <dl>
+                <dt>店名 ：</dt><dd>Natural Beans  自然元豆</dd>
+                <dt>地址 ：</dt><dd>台北市內湖區OO路XX號1樓</dd>
+                <dt>訂購專線 ：</dt><dd><a href="callto:0912345678">0912-345-678</a></dd>
+                <dt>來信洽詢 ：</dt><dd><a href="mailto:naturalbeans@gmail.com" target="_blank">http://roka404.main.jp/blog</a></dd>
+            </dl>
+        </section>
+        <section id="contact">
+        <form action="#" id="entryForm" method="post">
+        <table border="1" class="entryTable">
+            <caption>聯繫我們<p>
+                <strong><span class="require">*</span>為必填項目。</strong></p>
+            </caption>
+            <tr>
+                <th>您的大名*</th>
+                <td><input type="text" name="name" required autofocus></td>
+            </tr>
+            <tr>
+                <th>性別*</th>
+                <td>
+                    <input type="radio" name="sex" id="male" value="先生" checked><label for="male">先生</label>
+                    <input type="radio" name="sex" id="female" value="小姐"><label for="female">小姐</label> 
+                </td>
+            <tr>
+                <th>問題類型*</th>
+                <td>
+                    <select name="age" required>
+                        <option value="" selected>請選擇</option>
+                        <option value="0">詢價</option>
+                        <option value="1">產品諮詢</option>
+                        <option value="2">訂購咖啡豆</option>
+                        <option value="3">商業合作</option>
+                        <option value="4">其他</option>    
+                    </select>
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <th>E-mail*</th>
+                <td>
+                    <input type="email" name="email" placeholder="sample@gmail.com">
+                    <small>※請輸入半形文字</small>
+                </td>
+            </tr>
+            <tr>
+                <th>留言</th>
+                <td><textarea name="comment" rows="4" cols="40"></textarea></td>
+            </tr>
+
+        </table>
+        <div class="entryBtns">
+            <input type="reset" value="清除重填">
+            <input type="submit" value="送出">
+        </div>
+        </form>
+        </section><!-- contact -->
+    
+    </main>
+
+    <!-- footer -->
+     <footer>
+        <p><small>© NATURAL BEANS Web All Rights Reserved.</small></p>
+     </footer>
+</body>
+</html>
