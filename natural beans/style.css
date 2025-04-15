@@ -212,11 +212,15 @@ select {
         height: 100%;
         clear: both;
     }
+    .menu li {
+        margin: 8px auto;
+    }
  }
  /* RWD設定:664px以下 */
  @media screen and (max-width: 700px) {
     #contents {
-        width: 100%
+        width: 100%;
+        margin: 8 auto;
     }
     .menu li {
         display: block;
