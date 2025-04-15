@@ -109,7 +109,7 @@ h1 {
     text-align: right;
 }
 .more::after {
-    content: url(/images/arrow.png);
+    content: url(./images/arrow.png);
     margin-left: 3px;
     vertical-align: middle;
 }
@@ -128,12 +128,12 @@ header, nav, footer {
 }
 /* 連結圖示設定 */
 a[target="_blank"]::after {
-    content: url(/images/ico_blank.png);
+    content: url(./images/ico_blank.png);
     margin-left: 5px;
     vertical-align: middle;
 }
 a[href^="mailto:"]::after {
-    content: url(/images/ico_mail.png);
+    content: url(./images/ico_mail.png);
     margin-left: 5px;
     vertical-align: middle;
 }
@@ -215,6 +215,9 @@ select {
  }
  /* RWD設定:664px以下 */
  @media screen and (max-width: 700px) {
+    #contents {
+        width: 100%
+    }
     .menu li {
         display: block;
         margin: 0 auto 8px;
