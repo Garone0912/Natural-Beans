@@ -1,3 +1,6 @@
+body {
+    margin:0; padding:0;
+}
 /* 視窗背景顏色 */
 body {
     background-color: #F8F4E3 ;
