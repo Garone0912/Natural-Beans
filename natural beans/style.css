@@ -146,17 +146,17 @@ a[href^="mailto:"]::after {
 .entryTable {
     width: 100%;
     margin-bottom: 30px;
-    border: 2px solid #e5446dff;
+    border: 2px solid #f5b7c7;
     border-collapse: collapse;
 }
 .entryTable th, 
 .entryTable td {
     padding: 10px 20px;
-    border: 1px solid #e5446dff;
+    border: 1px solid #f5b7c7;
 }
 .entryTable th {
     width: 10em;
-    background-color: rgba(229, 68, 108, 0.5);
+    background-color: rgba(345, 76, 84, 0.2);
     text-align: left;
 }
 .entryTable caption {
@@ -195,9 +195,9 @@ select {
     margin: 0 auto;
     padding: 10px;
     font-size: 1em;
-    border: 2px solid #e5446dff;
+    border: 2px solid #f5b7c7;
     border-radius: 4px;
-    background: rgba(229, 68, 108, 0.5);
+    background: rgba(345, 76, 84, 0.2);
 }
 .entryBtns input:hover {
     opacity: 0.7;
@@ -224,7 +224,7 @@ select {
     }
     .menu li {
         display: block;
-        margin: 0 auto 8px;
+        margin: auto 8px;
     }
     .menu ul {
         padding: 0;
