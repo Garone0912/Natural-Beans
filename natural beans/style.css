@@ -22,7 +22,7 @@ a:hover {
     list-style-type: none; 
     margin: 0 24px;
     display: inline-block;
-    width: 180px;
+    min-width: 180px;
 }
 .menu a {
     background: #3E5622;
