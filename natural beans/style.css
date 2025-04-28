@@ -21,7 +21,7 @@ a:hover {
     list-style-type: none; 
     margin: 0 24px;
     display: inline-block;
-    min-width: 180px;
+/*     min-width: 180px; */
 }
 .menu a {
     background: #3E5622;
@@ -220,11 +220,12 @@ select {
  @media screen and (max-width: 700px) {
     #contents {
         width: 100%;
-        margin: 8 auto;
+        margin: 8px auto; /* 稍微調整上下 margin */
+        padding: 20px; /* 減少左右 padding */
     }
     .menu li {
         display: block;
-        margin: auto 8px;
+        margin: 8px auto;
     }
     .menu ul {
         padding: 0;
